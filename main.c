@@ -88,11 +88,7 @@ int InputElementsFromFile(BTreeNode ** pRoot)
 {
 
     
-<<<<<<< HEAD
 	FILE * fd = fopen("/Users/bagjongho/Documents/BTree/ran.txt", "r");
-=======
-	FILE * fd = fopen("C:\\rand100.txt", "r");
->>>>>>> origin/master
 	int data, count = 0;
 
 	if (fd == NULL)
